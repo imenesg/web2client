@@ -9,6 +9,31 @@ const router = createRouter({
       component: () => import('../views/Login.vue')
     },
     {
+      path: '/gerenciar-vendas',
+      name: 'gerenciar-vendas',
+      component: () => import('../views/GerenciarVendas.vue')
+    },
+    {
+      path: '/gerenciar-estoque',
+      name: 'gerenciar-estoque',
+      component: () => import('../views/GerenciarEstoque.vue')
+    },
+    {
+      path: '/cadastro',
+      name: 'cadastro',
+      component: () => import('../views/Cadastro.vue')
+    },
+    {
+      path: '/editar-usuario',
+      name: 'editar-usuario',
+      component: () => import('../views/EditarUsuario.vue')
+    },
+    {
+      path: '/relatorio',
+      name: 'relatorio',
+      component: () => import('../views/Relatorio.vue')
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
